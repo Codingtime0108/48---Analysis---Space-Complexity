@@ -1,4 +1,4 @@
-def sum(n):
+def add(n):
     return n*(n+1)/2
 
 def arraysum(a):
@@ -12,7 +12,8 @@ print(arraysum(a))
 
 def summ(n):
     if(n<=0):
-        return
+        return 0
     return n+ summ(n-1)
 
-summ(2)
+print(summ(2))
+print(add(2))
